@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
 
-    <style name="Theme.Todolist" parent="android:Theme.Material.Light.NoActionBar" />
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<style name="Base.Theme.Todolist" parent="Theme.Material3.DayNight">
+    <item name="colorPrimary">#11144C</item>
+
+
+    <item name="colorSecondary">#11144C</item>
+
+
+
+</style>
+
+<style name="Theme.Todolist" parent="Base.Theme.Todolist" />
 </resources>

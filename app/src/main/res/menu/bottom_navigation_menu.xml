@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_notes"
+        android:title="Notes"
+        android:icon="@drawable/notes" />
+    <item
+        android:id="@+id/menu_priority"
+        android:title="Priority"
+        android:icon="@drawable/priority_high" />
+</menu>
