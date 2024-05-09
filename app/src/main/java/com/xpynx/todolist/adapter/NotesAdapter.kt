@@ -175,6 +175,7 @@ showToast("Added to priority",itemView)
                 val updatedTitle = etTitle.text.toString()
                 val updatedDescription = etDescription.text.toString()
 
+
                 val db=FirebaseFirestore.getInstance();
                 val userId=FirebaseAuth.getInstance().currentUser?.uid.toString()
                 val documentReference = db.collection("notes")
